@@ -8,10 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
     steps:
-      - uses: GoogleCloudPlatform/release-please-action@v2.33.0
-        id: release
-        with:
-          command: github-release
-          token: ${{secrets.NODE_AUTH_TOKEN_GLOBAL}}
-          package-name: webile,
-          release-type: node
+#      - uses: GoogleCloudPlatform/release-please-action@v2.33.0
+#        id: release
+#        with:
+#          command: github-release
+#          token: ${{secrets.NODE_AUTH_TOKEN_GLOBAL}}
+#          package-name: webile,
+#          release-type: node
+        - uses: GoogleCloudPlatform/release-please-action@973b63d3d58b9a5a9fed0dd512501ad5a9ab319b
+          with:
+              release-type: simple
+              package-name: release-please-action
