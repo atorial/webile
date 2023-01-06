@@ -10,4 +10,5 @@ dist
 .env.production
 .env.testing
 .env.staging
+.vscode
 

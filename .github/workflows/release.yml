@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
     steps:
-      - uses: google-github-actions/release-please-action@v2
+      - uses: GoogleCloudPlatform/release-please-action@v2.33.0
         id: release
         with:
           command: github-release
