@@ -66,3 +66,8 @@ Nuxt.js documentation
 Supabase documentation
 Ionic documentation
 Firebase documentation
+
+
+___ 
+colors : #ff0000 and #448ee
+---
