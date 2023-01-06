@@ -1,0 +1,29 @@
+{
+  "name": "@atoria/webile",
+  "description": "Webile ",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "uno": "pnpm release --first-release"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "nuxt": "3.0.0",
+    "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "@atoria/css": "^0.0.8",
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@types/node": "^18.11.18"
+  }
+}
