@@ -2,6 +2,8 @@
 
 
 [![Release](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg)](https://github.com/atorial/webile/actions/workflows/release.yml) 
+
+
 Webile is a mobile template built with Nuxt 3, Supabase, Ionic, and Firebase. It is designed to be a starter template for your mobile app development projects.
 
 ## Key Features
