@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.1](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.0...v0.0.1) (2023-01-06)
+
+
+### Bug Fixes
+
+* space between badge and text ([47d460b](https://github.com/mokkapps/changelog-generator-demo/commits/47d460b035a4c77b6097267a36e2c80ad2089fc7))
+* uncommitted items ([b43d074](https://github.com/mokkapps/changelog-generator-demo/commits/b43d07448530e2df20f5c54a74be51e8a161982d))
+
 ## 0.0.0 (2023-01-06)
 
 ## 0.0.0 (2023-01-06)
