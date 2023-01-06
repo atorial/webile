@@ -69,5 +69,6 @@ Firebase documentation
 
 
 ___ 
-colors : #ff0000 and #448ee
+
+[//]: # (colors : #ff0000 and #448ee)
 ---
