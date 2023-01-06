@@ -1,0 +1,17 @@
+on:
+  pull_request_target:
+    types:
+      - closed
+name: Release
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - uses: google-github-actions/release-please-action@v2
+        id: release
+        with:
+          command: github-release
+          token: ${{secrets.NODE_AUTH_TOKEN_GLOBAL}}
+          default-branch: main,
+          package-name: webile
