@@ -2,7 +2,7 @@ on:
   pull_request_target:
     types:
       - closed
-name: Release
+name: CI/CD
 jobs:
   release-please:
     runs-on: ubuntu-latest
