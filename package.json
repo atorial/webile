@@ -13,7 +13,9 @@
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
-    "uno": "pnpm release --first-release"
+    "uno": "pnpm release --first-release",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
   },
   "devDependencies": {
     "husky": "^8.0.0",
@@ -22,6 +24,12 @@
   },
   "dependencies": {
     "@atoria/css": "^0.0.8",
+    "@capacitor/app": "4.1.1",
+    "@capacitor/cli": "4.6.1",
+    "@capacitor/core": "4.6.1",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/keyboard": "4.1.0",
+    "@capacitor/status-bar": "4.1.1",
     "@commitlint/cli": "^17.4.0",
     "@commitlint/config-conventional": "^17.4.0",
     "@types/node": "^18.11.18"
