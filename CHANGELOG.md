@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.2...v0.0.3) (2023-01-06)
+
+
+### Features
+
+* add more badges ([bed18bb](https://github.com/mokkapps/changelog-generator-demo/commits/bed18bb0e965d64b81614b8488ea30cd40d83cc2))
+
+
+### Bug Fixes
+
+* remove default branch ([af21642](https://github.com/mokkapps/changelog-generator-demo/commits/af21642373764b5be82d24f9963f1a6366ad74e9))
+
 ### [0.0.2](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.1...v0.0.2) (2023-01-06)
 
 
