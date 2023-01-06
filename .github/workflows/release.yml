@@ -13,6 +13,5 @@ jobs:
         with:
           command: github-release
           token: ${{secrets.NODE_AUTH_TOKEN_GLOBAL}}
-          default-branch: main,
           package-name: webile,
           release-type: node
