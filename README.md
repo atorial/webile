@@ -1,15 +1,7 @@
 # Webile: Nuxt 3, Supabase, Ionic, and Firebase Mobile Template
 
 
-[![Tests](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg)](https://github.com/atorial/webile/actions/workflows/release.yml) 
-
-[![Issues](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=issues)](https://github.com/atorial/webile/actions/workflows/release.yml)
-
-[![Project](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=project)](https://github.com/atorial/webile/actions/workflows/release.yml)
-
-[![Release](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=release)](https://github.com/atorial/webile/actions/workflows/release.yml)
-
-[![Workflow](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=workflow_run)](https://github.com/atorial/webile/actions/workflows/release.yml)
+[![Tests](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg)](https://github.com/atorial/webile/actions/workflows/release.yml)  [![Issues](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=issues)](https://github.com/atorial/webile/actions/workflows/release.yml) [![Project](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=project)](https://github.com/atorial/webile/actions/workflows/release.yml) [![Release](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=release)](https://github.com/atorial/webile/actions/workflows/release.yml) [![Workflow](https://github.com/atorial/webile/actions/workflows/release.yml/badge.svg?event=workflow_run)](https://github.com/atorial/webile/actions/workflows/release.yml)
 
 
 Webile is a mobile template built with Nuxt 3, Supabase, Ionic, and Firebase. It is designed to be a starter template for your mobile app development projects.
