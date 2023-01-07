@@ -12,6 +12,9 @@
       <div v-if="route==='about'" class="">
         <about/>
       </div>
+      <div v-if="route==='auth'">
+        <LoginPage/>
+      </div>
     </IonContent>
   </IonPage>
 </template>
@@ -25,4 +28,7 @@ import {
 } from "@ionic/vue"
 const router = useRouter();
 const route = useRoute().params.option
+definePageMeta({
+  middleware: ["auth"]
+})
 </script>

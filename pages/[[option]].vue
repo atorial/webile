@@ -12,6 +12,7 @@
 import {definePageMeta} from "nuxt/dist/pages/runtime";
 import Mobile from "~/layouts/mobile.vue";
 const layout = useRuntimeConfig().UIlayout
+
 </script>
 
 <style scoped>
