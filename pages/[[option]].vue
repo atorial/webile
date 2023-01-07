@@ -1,11 +1,16 @@
 <template>
-  <div class="bg-purple text-gray-300 text-2xl p-3">
-<h1 class="text-xl">Welcome To Webile please replace me. {{layout}}</h1>
+<!--Page Switcher-->
+  <div v-if="layout ==='mobile'" class="">
+    <MobilePage/>
+  </div>
+  <div v-else class="">
+    <h1>Website</h1>
   </div>
 </template>
 
 <script setup lang="ts">
 import {definePageMeta} from "nuxt/dist/pages/runtime";
+import Mobile from "~/layouts/mobile.vue";
 const layout = useRuntimeConfig().UIlayout
 </script>
 

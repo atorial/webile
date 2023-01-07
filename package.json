@@ -18,20 +18,26 @@
     "ionic:serve": "npm run dev"
   },
   "devDependencies": {
+    "@ionic/lab": "3.2.15",
     "husky": "^8.0.0",
     "nuxt": "3.0.0",
     "standard-version": "^9.5.0"
   },
   "dependencies": {
     "@atoria/css": "^0.0.8",
+    "@capacitor/android": "4.6.1",
     "@capacitor/app": "4.1.1",
     "@capacitor/cli": "4.6.1",
     "@capacitor/core": "4.6.1",
     "@capacitor/haptics": "4.1.0",
+    "@capacitor/ios": "4.6.1",
     "@capacitor/keyboard": "4.1.0",
     "@capacitor/status-bar": "4.1.1",
     "@commitlint/cli": "^17.4.0",
     "@commitlint/config-conventional": "^17.4.0",
+    "@ionic/core": "^6.4.1",
+    "@ionic/vue": "^6.4.1",
+    "@supabase/supabase-js": "^2.2.3",
     "@types/node": "^18.11.18"
   }
 }

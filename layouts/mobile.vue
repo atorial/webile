@@ -1,12 +1,21 @@
 <template>
-  <div class="mx-4 my-8">
-    <h1 class="text-red bg-blue text-2xl">Mobile UI</h1>
-<slot/>
-  </div>
+ <div class="">
+   <IonApp>
+     <slot/>
+   </IonApp>
+ </div>
+
 </template>
 
 <script setup lang="ts">
-
+import { IonApp } from "@ionic/vue"
+useHead({
+  meta: [
+    {
+      content: 'width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover', name: "viewport"
+    }
+  ]
+})
 </script>
 
 <style scoped>
