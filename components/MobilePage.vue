@@ -27,7 +27,8 @@ import {
   IonContent,
 } from "@ionic/vue"
 const router = useRouter();
-const route = useRoute().params.option
+const routeData = useRoute().params.option as string
+const route = routeData.includes("-")? routeData.split("-")[1]: routeData
 definePageMeta({
   middleware: ["auth"]
 })
