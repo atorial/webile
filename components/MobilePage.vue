@@ -1,10 +1,5 @@
 <template>
   <IonPage>
-    <IonHeader :translucent="true">
-      <IonToolbar>
-        <IonTitle class="capitalize">{{ route ===""? "Home": route }}</IonTitle>
-      </IonToolbar>
-    </IonHeader>
     <IonContent class="ion-padding">
    <div v-if="route ===''" class="home">
     <home/>
@@ -22,6 +17,7 @@
 import {
   IonPage,
   IonHeader,
+  IonBackButton,
   IonTitle,
   IonToolbar,
   IonContent,
