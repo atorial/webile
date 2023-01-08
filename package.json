@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@ionic/lab": "3.2.15",
+    "@types/node": "^18.11.18",
     "husky": "^8.0.0",
     "nuxt": "3.0.0",
     "standard-version": "^9.5.0"
@@ -35,9 +36,11 @@
     "@capacitor/status-bar": "4.1.1",
     "@commitlint/cli": "^17.4.0",
     "@commitlint/config-conventional": "^17.4.0",
+    "@heroicons/vue": "^2.0.13",
     "@ionic/core": "^6.4.1",
     "@ionic/vue": "^6.4.1",
+    "@nuxtjs/algolia": "^1.4.2",
     "@supabase/supabase-js": "^2.2.3",
-    "@types/node": "^18.11.18"
+    "sass": "^1.57.1"
   }
 }
