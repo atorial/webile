@@ -7,6 +7,7 @@ export default defineNuxtConfig({
         '@ionic/core/css/structure.css',
         '@ionic/core/css/typography.css',
         '@ionic/core/css/ionic.bundle.css',
+        "@/assets/styles.scss"
     ],
     ssr: false,
     runtimeConfig: {
@@ -15,5 +16,12 @@ export default defineNuxtConfig({
             SUPABASE_URL: process.env.SUPABASE_URL,
             SUPABASE_API_KEY: process.env.SUPABASE_API_KEY,
         }
+    },
+    modules: [
+        "@nuxtjs/algolia",
+    ],
+    algolia: {
+        apiKey: process.env.AGOLIA_API,
+        applicationId: process.env.AGOLIA_APP_ID,
     }
 })

@@ -9,9 +9,11 @@
 </template>
 
 <script setup lang="ts">
-import {definePageMeta} from "nuxt/dist/pages/runtime";
-import Mobile from "~/layouts/mobile.vue";
+
 const layout = useRuntimeConfig().UIlayout
+definePageMeta({
+  middleware: ["auth"]
+})
 </script>
 
 <style scoped>
